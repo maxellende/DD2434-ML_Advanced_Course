@@ -1,4 +1,10 @@
+# Project for DD2434 - Machine Learning Advanced Course
+
 Reimplmentation of [VAE](https://arxiv.org/pdf/1312.6114.pdf), a variational autoencoder, in Pytorch.
+
+Full report [here]()
+
+## Dependencies
 
 To run first install dependencies
 
@@ -16,7 +22,7 @@ and each specific experiment is contained within its own subdirectory
 Note that actions such as training, plotting, hyperparameter searching and generating samples are off by default.
 Meaning that even if a file path is provided for the actions it will not be used unless the action is set to true.
 
-# Experiments with VAE
+## Experiments with VAE
 ### latent space 2 with binary cross-entropy (for plotting manifold)
 
     py main.py --model "vae" --ls 2 --epochs 1670 --train true --plot true --manifold true --generate true --n_samples 10 --save_checkpoint true --save_rate_epoch 100
@@ -41,7 +47,7 @@ Meaning that even if a file path is provided for the actions it will not be used
 
     py main.py --model "vae" --ls 200 --lr 1e-2 --epochs 1670 --train true --plot true --generate true --n_samples 10 --save_checkpoint true --save_rate_epoch 100
 
-# Experiments with vanilla AE
+## Experiments with vanilla AE
 ### latent space 2, bce (for plotting manifold)
 
     py main.py --model "ae" --criterion "bce" --ls 2 --epochs 1670 --train true --plot true --manifold true --generate true --n_samples 10 --save_checkpoint true --save_rate_epoch 100
