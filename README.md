@@ -1,8 +1,8 @@
 # Project for DD2434 - Machine Learning Advanced Course
 
-Reimplmentation of [VAE](https://arxiv.org/pdf/1312.6114.pdf), a variational autoencoder, in Pytorch.
+Reimplmentation of the paper [Auto-Encoding Variational Bayes (2022, Kingma et al.)](https://arxiv.org/pdf/1312.6114.pdf), in Pytorch.
 
-Full report [here]()
+Full report [here](DD2434___Variational_Autoencoders_Project_Report.pdf)
 
 ## Dependencies
 
